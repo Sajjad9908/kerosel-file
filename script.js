@@ -41,7 +41,7 @@ prevBtn.addEventListener('click', () => {
       track.style.transition = 'transform 0.5s ease';
       currentIndex = totalCards - 1;
       track.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
-    }, 20);
+    }, 30);
   } else {
     currentIndex--;
     track.style.transition = 'transform 0.5s ease';
